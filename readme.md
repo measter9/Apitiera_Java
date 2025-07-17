@@ -21,6 +21,9 @@ Projekt Java z użyciem Spring Boot, umożliwiający pobieranie informacji o rep
 - Wyświetlanie podstawowych informacji: nazwa repozytorium, login właściciela.
 - Pobieranie listy branchy i ich ostatnich commitów.
 
+---
+
+
 ## ⚙️ Jak uruchomić
 
 ### 1. Sklonuj repozytorium
@@ -35,7 +38,9 @@ cd apitiera-java
 ./mvnw spring-boot:run
 ```
 
-# 🧪 Jak testować
+---
+
+## 🧪 Jak testować
 
 Uruchom wszystkie testy:
 
@@ -43,7 +48,9 @@ Uruchom wszystkie testy:
 ./mvnw test
 ```
 
-# ❗ Uwaga dotycząca autentykacji
+---
+
+## ❗ Uwaga dotycząca autentykacji
 
 Projekt nie obsługuje autentykacji do GitHub API, ponieważ nie było to wymagane w założeniach projektu.
 
