@@ -38,6 +38,12 @@ cd apitiera-java
 ./mvnw spring-boot:run
 ```
 
+### 3. Działanie aplikacji
+
+Enpoint do sprawdzania użytkownika dostępny jest pod adresem
+``http://localhost:8080/user/{username}``
+
+
 ---
 
 ## 🧪 Jak testować
